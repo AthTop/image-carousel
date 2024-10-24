@@ -1,0 +1,51 @@
+#images {
+    display: flex;
+    width: fit-content;
+    position: relative;
+    transition: right 0.5s ease;
+}
+
+#imgcontainer {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bubble-button {
+    border-radius: 100%;
+    border: 1px solid #999;
+    height: 20px;
+    width: 20px;
+}
+
+.active-img-bubble {
+    border: 2px solid red;
+
+}
+
+#navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#navigation>div {
+    display: flex;
+    justify-content: center;
+}
